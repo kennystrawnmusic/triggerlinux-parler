@@ -1,4 +1,4 @@
-pkgname="jak-social-parler"
+pkgname="triggerbox-parler"
 pkgver=1.0
 pkgrel=1
 pkgdesc="Parler"
@@ -12,7 +12,7 @@ package() {
   cd $srcdir
   mkdir -p $pkgdir/usr/bin
   mkdir -p $pkgdir/usr/share/applications
-  cp $srcdir/parler.desktop $pkgdir/usr/share/applications
-  cp $srcdir/parler $pkgdir/usr/bin
-  cp $srcdir/parler-wrapper $pkgdir/usr/bin
+  cp $srcdir/$pkgname/parler.desktop $pkgdir/usr/share/applications
+  cp $srcdir/$pkgname/parler $pkgdir/usr/bin
+  cp $srcdir/$pkgname/parler-wrapper $pkgdir/usr/bin
 }
