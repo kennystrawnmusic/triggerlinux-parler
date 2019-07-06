@@ -6,7 +6,7 @@ arch=('x86_64')
 url="https://parler.com"
 license=('GPL')
 depends=('jade-application-kit-git')
-source=("https://github.com/realKennyStrawn93/triggerbox-parler")
+source=("git+https://github.com/realKennyStrawn93/triggerbox-parler#branch=master")
 
 package() {
   cd $srcdir
