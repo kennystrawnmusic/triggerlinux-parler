@@ -1,4 +1,4 @@
-pkgname="triggerbox-parler"
+pkgname="triggerlinux-parler"
 pkgver=1.1
 pkgrel=1
 pkgdesc="Parler"
@@ -6,7 +6,7 @@ arch=('x86_64')
 url="https://parler.com"
 license=('GPL')
 depends=('jade-application-kit-git')
-source=("git+https://github.com/realKennyStrawn93/triggerbox-parler#branch=master")
+source=("git+https://github.com/realKennyStrawn93/triggerlinux-parler#branch=master")
 
 package() {
   cd $srcdir
